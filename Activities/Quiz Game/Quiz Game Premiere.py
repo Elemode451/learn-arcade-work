@@ -426,23 +426,23 @@ def final_step(score, percentage):
     if score == 0:
         print("Good try! Practice makes perfect, you know! You got zero correct, equating to 0% accuracy.")
         print("Thanks so much for participating in my quiz game!"
-              "If you enjoyed it, go ahead and play it again! The game is built with a special function that"
-              " essentially makes it so every playthrough is different. There are 15 total questions "
+              " If you enjoyed it, go ahead and play it again! The game is built with a special function that"
+              "\nessentially makes it so every playthrough is different. There are 25 total questions "
               "possible - see if you can get all of them right!")
         sys.exit()
     if score == 1 or score == 2:
         print(f"Nice try! You got a {score}/5, which is exactly {percentage}%.",
               "Not bad, but there is always room for practice!")
         print("Thanks so much for participating in my quiz game!"
-              "If you enjoyed it, go ahead and play it again! The game is built with a special function that"
-              " essentially makes it so every playthrough is different. There are 15 total questions "
+              " If you enjoyed it, go ahead and play it again! The game is built with a special function that"
+              "\nessentially makes it so every playthrough is different. There are 25 total questions "
               "possible - see if you can get all of them right!")
         sys.exit()
     if score == 3 or score == 4:
         print(f"This time, you did very well! Your score was a {score}/5, or {percentage}%.")
         print("Thanks so much for participating in my quiz game!"
               " If you enjoyed it, go ahead and play it again! The game is built with a special function that"
-              " essentially makes it so every playthrough is different. There are 15 total questions "
+              "\nessentially makes it so every playthrough is different. There are 25 total questions "
               "possible - see if you can get all of them right!")
         sys.exit()
     if score == 5:
@@ -450,7 +450,7 @@ def final_step(score, percentage):
               "the streak up!")
         print("Thanks so much for participating in my quiz game!"
               " If you enjoyed it, go ahead and play it again! The game is built with a special function that"
-              " essentially makes it so every playthrough is different. There are 15 total questions "
+              "\nessentially makes it so every playthrough is different. There are 25 total questions "
               "possible - see if you can get all of them right!")
         sys.exit()
 main()
